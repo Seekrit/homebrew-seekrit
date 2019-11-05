@@ -8,6 +8,6 @@ class Weather < Formula
   bottle :unneeded
 
   def install
-    bin.install "seekrit"
+    bin.install "seekrit-macos"
   end
 end
