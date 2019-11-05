@@ -8,6 +8,7 @@ class SeekritCli < Formula
   bottle :unneeded
 
   def install
-    bin.install "seekrit"
+    bin.install "seekrit-macos"
+    mv bin/"seekrit-macos", bin/"seekrit"
   end
 end
