@@ -1,4 +1,4 @@
-class Seekrit < Formula
+class SeekritCli < Formula
   desc "A command line tool to retrieve local weather"
   homepage "https://seekrit.io/"
   url "https://homebrew-seekrit.s3.us-east-2.amazonaws.com/seekrit.tar.gz"
@@ -8,6 +8,6 @@ class Seekrit < Formula
   bottle :unneeded
 
   def install
-    bin.install "seekrit-macos"
+    bin.install "seekrit"
   end
 end
